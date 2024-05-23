@@ -261,3 +261,55 @@
 
 // Question 5
 // none
+
+
+
+// // Chapter 
+
+
+// Question 1
+// const show = () => {
+//     alert("fuck")
+// }
+// document.body.innerHTML = `
+// <button onclick="show()">fuck</button`;
+
+
+// // Question 2 
+// document.body.innerHTML = `
+// <a href="https://www.google.com"><button>fuck</button></a>
+// `;
+
+
+// Question 3
+// document.body.innerHTML = `
+// <button id="fuck">fuck</button>
+// `;
+
+// document.getElementById('fuck').addEventListener('click', ()=>{
+//     location.href="https://www.google.com";
+// })
+
+
+// Quesiton 4
+// setInterval(() => {
+//     fetch("https://cat-fact.herokuapp.com/facts")
+//     .then (res => res.json())
+//     .then (data => console.log(data));
+// }, 3000);
+
+
+// Question 5 
+// const toggle = () => {
+//     if(document.getElementsByTagName('button')[0].classList.contains('toggle')) {
+//         document.getElementsByTagName('button')[0].classList.remove('toggle');
+//     }
+//     else {
+//         document.getElementsByTagName('button')[0].classList.add('toggle');
+//     }
+// }
+
+
+// document.body.innerHTML = `
+//  <button class="toggle" onclick="toggle()">fuck</button>
+//  `;
